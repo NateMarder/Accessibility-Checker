@@ -10,7 +10,6 @@ var checkDocumentAA = function () {
         return false;
     }
 
-    // this function parses and rgb(x,x,x) values
     function colorValues( color ) {
 
         var values;
@@ -28,7 +27,6 @@ var checkDocumentAA = function () {
         }
 
         valueArray = valueString.split( ',' );
-
         values = valueArray.map( function ( element ) {
             return parseFloat( element );
         } );
@@ -202,11 +200,6 @@ var checkDocumentAA = function () {
 
         checkColors( document );
     }
-
 }();
 
-
 checkDocumentAA();
-
-
-
