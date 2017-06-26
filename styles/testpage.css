@@ -54,3 +54,55 @@ tr {
     width: 80%;
     text-align: left;
 }
+
+
+
+
+
+.blue-background {
+    background-color: cornflowerblue;
+}
+
+.blue-foreground {
+    color: cornflowerblue;
+}
+
+.green-background {
+    background-color: #008000;
+}
+
+.green-foreground {
+    color: #008000;
+}
+
+.orange-background {
+    background-color: #d2691e;
+}
+
+.orange-foreground {
+    color: #d2691e;
+}
+
+.purple-background {
+    background-color: #483d8b;
+}
+
+.purple-foreground {
+    color: #483d8b;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.font-weight-800 {
+    font-weight: 800;
+}

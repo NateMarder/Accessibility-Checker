@@ -2,51 +2,57 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>New Site</title>  
+    <title>Double AA Checker</title>
     <link rel="icon" href="data:;base64,=">
     <link href="styles/testpage.css" rel="stylesheet" />
-    <title>Double AA Checker</title>
-</head>        
+    <link href="styles/darcula.css" rel="stylesheet" />
+</head>
 
 <body>
-<div class="content"> 
-    <h1>
-        About this Checker...
-    </h1>  
-    
-    <table>
-        <thead>
-        <tr>
-            <th class="property">Property</th>
-            <th class="description">Requirements</th>
-        </tr>
-        </thead>                
-        <tbody>
-        <tr>
-            <td>Contrast</td> 
-            <td>     
-                <strong>Minimum:</strong> The visual presentation of text and images of text has a contrast ratio of at least <strong>4.5:1</strong> except for the following: (Level AA)<br />
-                <strong>Large Text:</strong> Large-scale text and images of large-scale text have a contrast ratio of at least <strong>3:1</strong> <br/>
-                <strong>Incidental:</strong> Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.<br />
-                <strong>Logotypes:</strong> Text that is part of a logo or brand name has no minimum contrast requirement.
-            </td>
-        </tr>     
-        <tr>
-            <td>Sources</td> 
-            <td>     
-                <strong> https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html </strong><br />
-                <strong> https://www.w3.org/TR/WCAG20-TECHS/G18.html#G18-procedure </strong><br/>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-</div>
+    <div class="content">
+        <h1>
+            About this Checker...
+        </h1>
+        <table>
+            <thead>
+                <tr>
+                    <th class="property">Property</th>
+                    <th class="description">Requirements</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="font-weight-600">Contrast</td>
+                <td>
+                    <strong>Minimum:</strong> The visual presentation of text and images of text has a contrast ratio of at least <strong>4.5:1</strong> except for the following: (Level AA)<br />
+                    <strong>Large Text:</strong> Large-scale text and images of large-scale text have a contrast ratio of at least <strong>3:1</strong> <br />
+                    <strong>Incidental:</strong> Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.<br />
+                    <strong>Logotypes:</strong> Text that is part of a logo or brand name has no minimum contrast requirement.
+                </td>
+            </tr>
+            <tr>
+                <td class="blue-foreground blue-background font-weight-500">blue everything</td>
+                <td class="blue-foreground blue-background">blue everything</td>
+            </tr>
+                <tr>
+                    <td class="blue-foreground orange-background font-weight-500">fore: blue; back: orange; fw: 500</td>
+                    <td class="purple-foreground blue-background">fore: purple; back: blue</td>
+                </tr>
+                <tr>
+                    <td class="purple-foreground green-background">fore: purple  back: green</td>
+                    <td class="green-foreground purple-background font-weight-800">fore: green back: purple; fw: 800</td>
+                </tr>
+                <tr>
+                    <td class="blue-foreground purple-background">fore: blue; back: purple</td>
+                    <td class="purple-foreground orange-background">fore: purple  back: orange</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 
 </html>
 
 <footer>
-
-    <script src="scripts/libs/jquery-3.2.1.slim.min.js" type="text/javascript"></script>  
-
+    <script src="scripts/libs/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
 </footer>
